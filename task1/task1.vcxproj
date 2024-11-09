@@ -132,6 +132,7 @@
     <ClCompile Include="Part1Tester.cpp" />
     <ClCompile Include="Part2Tester.cpp" />
     <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="Stack.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedList.h" />
