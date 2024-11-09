@@ -24,6 +24,9 @@
     <ClCompile Include="Part2Tester.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Queue.h">
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

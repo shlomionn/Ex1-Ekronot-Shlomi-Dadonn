@@ -5,7 +5,6 @@
 /* a queue contains positive integer values. */
 typedef struct Queue
 {
-	// Complete the definition here
 	int* arr;
 	int size; //size of the array
 	int last; //index of the current last node of the array

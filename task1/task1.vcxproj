@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Cyber_User\Documents\magshimim\y2c1\week1_Ekronot\Ex1-Ekronot-Shlomi-Dadonn\Ex1-Ekronot-Shlomi-Dadonn\task1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,11 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="Part1Tester.cpp" />
     <ClCompile Include="Part2Tester.cpp" />
     <ClCompile Include="Queue.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Utils.h" />
