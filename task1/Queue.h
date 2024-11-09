@@ -7,6 +7,8 @@ typedef struct Queue
 {
 	// Complete the definition here
 	int* arr;
+	int size; //size of the array
+	int last; //index of the current last node of the array
 } Queue;
 
 void initQueue(Queue* q, unsigned int size);

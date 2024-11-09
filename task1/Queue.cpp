@@ -11,12 +11,44 @@ int main()
 void initQueue(Queue* q, unsigned int size)
 {
     q->arr = new int[size];
+    q->size = size;
+    q->last = -1;
 }
 void cleanQueue(Queue* q) 
 {
     delete[] q->arr;
     q->arr = NULL;
     std::cout << "queue cleaned" << std::endl;
+}
+void enqueue(Queue* q, unsigned int newValue)
+{
+    int i = 0;
+    if (q->size - 1 == q->last)
+    {
+        std::cout << "queue full" << std::endl;
+    }
+    else 
+    {
+        q->arr[q->last + 1] = newValue;
+        q->last++;
+    }
+}
+int dequeue(Queue* q)
+{
+    int i = 0, temp = 0;
+    if (q->last == -1)
+    {
+        std::cout << "queue is empty" << std::endl;
+        return -1;
+    }
+    temp = q->arr[0];
+    for (i = 0; i < q->last; i++)
+    {
+        q->arr[i] = q->arr[i + 1];
+    }
+    q->arr[q->last] = NULL;
+    q->last--;
+    return temp;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
