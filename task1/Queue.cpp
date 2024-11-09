@@ -1,13 +1,5 @@
-// task1.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 #include "Queue.h"
-
-int main()
-{
-    std::cout << "Hello World!\n";
-}
 void initQueue(Queue* q, unsigned int size)
 {
     q->arr = new int[size];
@@ -23,7 +15,7 @@ void cleanQueue(Queue* q)
 void enqueue(Queue* q, unsigned int newValue)
 {
     int i = 0;
-    if (q->size - 1 == q->last)
+    if (isFull(q))
     {
         std::cout << "queue full" << std::endl;
     }
@@ -36,7 +28,7 @@ void enqueue(Queue* q, unsigned int newValue)
 int dequeue(Queue* q)
 {
     int i = 0, temp = 0;
-    if (q->last == -1)
+    if (isEmpty(q))
     {
         std::cout << "queue is empty" << std::endl;
         return -1;
@@ -49,6 +41,16 @@ int dequeue(Queue* q)
     q->arr[q->last] = NULL;
     q->last--;
     return temp;
+}
+
+bool isEmpty(Queue* s)
+{
+    return s->last == -1;
+}
+
+bool isFull(Queue* s)
+{
+    return s->last == s->size - 1;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
