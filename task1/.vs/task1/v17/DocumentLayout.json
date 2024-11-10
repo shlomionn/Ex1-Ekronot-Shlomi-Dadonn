@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|solutionrelative:Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|solutionrelative:Stack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|solutionrelative:Queue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|solutionrelative:LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Part1Tester.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A965EC8A-FDBD-43A8-8712-08B35AFABC2C}|task1.vcxproj|solutionrelative:Part1Tester.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Utils.cpp",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Utils.cpp",
+              "RelativeDocumentMoniker": "Utils.cpp",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Utils.cpp",
+              "RelativeToolTip": "Utils.cpp",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T17:26:07.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stack.cpp",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Stack.cpp",
+              "RelativeDocumentMoniker": "Stack.cpp",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Stack.cpp",
+              "RelativeToolTip": "Stack.cpp",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T17:25:22.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Queue.cpp",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Queue.cpp",
+              "RelativeDocumentMoniker": "Queue.cpp",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Queue.cpp",
+              "RelativeToolTip": "Queue.cpp",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwEIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T17:23:11.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Part1Tester.cpp",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Part1Tester.cpp",
+              "RelativeDocumentMoniker": "Part1Tester.cpp",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\Part1Tester.cpp",
+              "RelativeToolTip": "Part1Tester.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T17:14:58.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\LinkedList.cpp",
+              "RelativeDocumentMoniker": "LinkedList.cpp",
+              "ToolTip": "C:\\Users\\Cyber_User\\Documents\\magshimim\\y2c1\\week1_Ekronot\\Ex1-Ekronot-Shlomi-Dadonn\\Ex1-Ekronot-Shlomi-Dadonn\\task1\\LinkedList.cpp",
+              "RelativeToolTip": "LinkedList.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-10T16:12:23.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

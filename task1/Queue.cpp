@@ -1,17 +1,30 @@
 #include <iostream>
 #include "Queue.h"
+
+/*
+* function initializes the queue with a specified size
+* input: pointer to the queue, size of the queue
+* output: none
+*/
 void initQueue(Queue* q, unsigned int size)
 {
     q->arr = new int[size];
     q->size = size;
     q->last = -1;
 }
-void cleanQueue(Queue* q) 
+
+/*
+* function frees the memory allocated to the queue and cleans it
+* input: pointer to the queue
+* output: none; prints a message indicating the queue is cleaned
+*/
+void cleanQueue(Queue* q)
 {
     delete[] q->arr;
     q->arr = NULL;
     std::cout << "queue cleaned" << std::endl;
 }
+
 void enqueue(Queue* q, unsigned int newValue)
 {
     int i = 0;
@@ -19,12 +32,13 @@ void enqueue(Queue* q, unsigned int newValue)
     {
         std::cout << "queue full" << std::endl;
     }
-    else 
+    else
     {
         q->arr[q->last + 1] = newValue;
         q->last++;
     }
 }
+
 int dequeue(Queue* q)
 {
     int i = 0, temp = 0;
@@ -43,23 +57,22 @@ int dequeue(Queue* q)
     return temp;
 }
 
+/*
+* function checks if the queue is empty
+* input: pointer to the queue
+* output: true if the queue is empty, false otherwise
+*/
 bool isEmpty(Queue* s)
 {
     return s->last == -1;
 }
 
+/*
+* function checks if the queue is full
+* input: pointer to the queue
+* output: true if the queue is full, false otherwise
+*/
 bool isFull(Queue* s)
 {
     return s->last == s->size - 1;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
